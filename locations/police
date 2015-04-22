@@ -15,7 +15,7 @@ if $ARGS[0] = '1':
 	'"Come on love to confess, " she tells you.'
 	'"What raskazyvat, I did not do anything, " you reply.'
 	'"You hymen of themselves do not build those in the park for the people of money and mobile phones has overcome, you have identified a fool, not far from his own house to engage in looting, you idiot or something, let´s love to confess. You do not need us, who love to confess to you was how many who robbed and where merged, raskazhesh let go, do not send the camera raskazhesh chicken. There you quickly put on my knees. " she yelled.'
-	'You started frantically thinking that you do. If you give her all raskazhite, Gopnik with you skin later, and in the literal sense, but if not it raskazhite you send in the camera, and then you too can do what the hell.'
+	'You started frantically thinking that you do. If you give her all raskazhite, vagabond with you skin later, and in the literal sense, but if not it raskazhite you send in the camera, and then you too can do what the hell.'
 
 	act 'Abut':
 		set minut += 60
@@ -27,7 +27,7 @@ if $ARGS[0] = '1':
 		'<center><img src="images/img/police/a2.jpg"></center>'
 		'"I know nothing." told you.'
 		'"That you´re a fool, you have any idea what you will do in the chamber, " she said, "Are you going for days pissing lick hole, you think it´s worth it, " she said.'
-		'You presented yourself as you lie on the floor zaplevanom and sits on your face carcass killogram under stopyatdesyat and rubs his crotch month of not washed your face. You wince, but the prospect of being raped by a dozen pohoronnenoy Gopnik and in a ditch, you scared more and you reiterated that you know nothing.'
+		'You presented yourself as you lie on the floor zaplevanom and sits on your face carcass killogram under stopyatdesyat and rubs his crotch month of not washed your face. You wince, but the prospect of being raped by a dozen pohoronnenoy vagabond and in a ditch, you scared more and you reiterated that you know nothing.'
 		'Maiden sat at the table in front of you and legs outstretched, pushed her panties exposing pussy. "I think about you fool, that´s pretty clear Vidisha groomed pussy, and imagine there are not washed for months, overgrown, smelly, there you my smell, it smells slightly usche, and in fact I just washed a few hours ago." With these words she took the baton and hooking her your neck pulled to his crotch. "That feeling is a little smell, and now lick" she said. You hesitated and she tutzhe ssiloy vzhalas you face in your pussy "Lick" she hissed. You began to lick "You see, gladenko shaved nice lick, and there will be those colonies that removing the language, you can not get to the clitoris, and then you would be beaten and his head tucked into the slop pail, so it you want, come tell me." she continued.'
 
 		act 'Refuse':
@@ -51,7 +51,7 @@ if $ARGS[0] = '1':
 		set minut += 180
 		gs 'stat'
 		set vsehsdaladay = day
-		'You told all they knew, and even then what just heard from conversations Gopnik. After that you released.'
+		'You told all they knew, and even then what just heard from conversations vagabond. After that you released.'
 
 		act 'Leave':gt 'nord'
 	end

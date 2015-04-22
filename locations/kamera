@@ -47,7 +47,7 @@ act 'Hello':
 					set minut += 180
 					gs 'stat'
 					set vsehsdaladay = day
-					'You told all they knew, and even then what just heard from conversations Gopnik. After that you released.'
+					'You told all they knew, and even then what just heard from conversations vagabond. After that you released.'
 
 					act 'Leave':gt 'nord'
 				end

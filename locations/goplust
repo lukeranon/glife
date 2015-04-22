@@ -10,9 +10,9 @@ GLust = 0
 if VasanLust >= 50 and VasanTut = 1:
 	VasanTut = 2
 	GLust += 1
-	$gopV = 'Bob nail looks at you look greedy'
+	$gopV = 'Vasyan folds his gaze at you with greedy eyes'
 elseif VasanLust < 80 and VasanTut = 1:
-	$gopV = 'Bob nail looks at you with indifference'
+	$gopV = 'Vasnyan looks at you with indifference'
 elseif VasanTut = 0:
 	$gopV = ''
 end
@@ -20,9 +20,9 @@ end
 if BerezaLust >= 60 and BerezaTut = 1:
 	BerezaTut = 2
 	GLust += 1
-	$gopB = 'Birch looks at you with interest'
+	$gopB = 'Bereza looks at you with interest'
 elseif BerezaLust < 95 and BerezaTut = 1:
-	$gopB = 'Birch does not look at you'
+	$gopB = 'Bereza does not look at you'
 elseif BerezaTut = 0:
 	$gopB = ''
 end
@@ -30,9 +30,9 @@ end
 if VitekLust >= 60 and VitekTut = 1:
 	VitekTut = 2
 	GLust += 1
-	$gopVi = 'Vitek on driving with your breasts look'
+	$gopVi = 'Vitek reduces his look only at your breasts'
 elseif VitekLust < 90 and VitekTut = 1:
-	$gopVi = 'Witek delves into the phone'
+	$gopVi = 'Vitek delves into the phone'
 elseif VitekTut = 0:
 	$gopVi = ''
 end
@@ -40,9 +40,9 @@ end
 if KotilLust >= 70 and KostilTut = 1:
 	KostilTut = 2
 	GLust += 1
-	$gopK = 'Crutch rummage your figure leer'
+	$gopK = 'Kostyl inspects your figure with a malicious look'
 elseif KotilLust < 90 and KostilTut = 1:
-	$gopK = 'Crutch schelykaet Semyon'
+	$gopK = 'Kostil crunches sunflower seeds'
 elseif KostilTut = 0:
 	$gopK = ''
 end
@@ -50,9 +50,9 @@ end
 if UdmurtLust >= 80 and UdmurtTut = 1:
 	UdmurtTut = 2
 	GLust += 1
-	$gopU = 'Udmurt hard stare and stare at you as you see in his pants, the bulge between his legs grow.'
+	$gopU = 'Udmurt looked with a heavy gaze at you as you notice how in his pants a bulge between his legs grow.'
 elseif UdmurtLust < 90 and UdmurtTut = 1:
-	$gopU = 'Udmurt squats and spits on asphalt'
+	$gopU = 'Udmurt squats and spits on the asphalt'
 elseif UdmurtTut = 0:
 	$gopU = ''
 end
@@ -60,9 +60,9 @@ end
 if SeriLust >= 90 and SeriTut = 1:
 	SeriTut = 2
 	GLust += 1
-	$gopS = 'Grey spits on the pavement through their gold teeth and grinning mischievously staring at your feet.'
+	$gopS = 'Seri spits on the pavement through his gold teeth and grinning mischievously staring at your legs.'
 elseif SeriLust < 95 and SeriTut = 1:
-	$gopS = 'Gray turned away and talking on the phone'
+	$gopS = 'Seri turned away and talking on the phone'
 elseif SeriTut = 0:
 	$gopS = ''
 end

@@ -49,34 +49,34 @@ $din_gboy_go_to_disco = {
 				'You dance with her boyfriend, to you suited drunk kid in sweatpants and sweatshirts.'
 
 				if GorSlut < 3:
-					'Gopnik pushes your guy to the side and grabs you by the waist. "Let´s dance, chikulya."'
+					'vagabond pushes your guy to the side and grabs you by the waist. "Let´s dance, chikulya."'
 
 					act 'Leave':
 						cls
 						dom += 1
 						gs 'stat'
-						'You escape from the clutches of steel Gopnik. <<$nameBoyfrend[numnpc]>> drunk kid pushed and immediately went to the dance floor buddies Gopnik. Bazaar started. Gopnik began to show your boyfriend that he bykuet.'
+						'You escape from the clutches of steel vagabond. <<$nameBoyfrend[numnpc]>> drunk kid pushed and immediately went to the dance floor buddies vagabond. Bazaar started. vagabond began to show your boyfriend that he bykuet.'
 						tiprand = rand(0, 100)
 
 						if tiprand <= 70:
-							'<<$nameBoyfrend[numnpc]>> managed to get out of the winner of the fight verbally, accusing Gopnik that he began to molest his girlfriend. But the evening was spoiled and finally <<$nameBoyfrend[numnpc]>> offered to leave the disco.'
+							'<<$nameBoyfrend[numnpc]>> managed to get out of the winner of the fight verbally, accusing vagabond that he began to molest his girlfriend. But the evening was spoiled and finally <<$nameBoyfrend[numnpc]>> offered to leave the disco.'
 							act 'Go home':gt 'gorodok'
 						end
 
 						if tiprand > 70 and tiprand < 90:
 							otnBoyFrend[numnpc] -= 20
-							'Gopnik quickly downloaded your guy and lit it on the headstock. <<$nameBoyfrend[numnpc]>> Gopnik gave all the money and apologized for a long time before them. whereupon <<$nameBoyfrend[numnpc]>> suggested that you spend.'
+							'vagabond quickly downloaded your guy and lit it on the headstock. <<$nameBoyfrend[numnpc]>> vagabond gave all the money and apologized for a long time before them. whereupon <<$nameBoyfrend[numnpc]>> suggested that you spend.'
 							act 'Go home':gt 'gorodok'
 						end
 
 						if tiprand >= 90:
-							'Discussions quickly escalated into a fight and three Gopnik began to beat your guy in the middle of the disco.'
+							'Discussions quickly escalated into a fight and three vagabond began to beat your guy in the middle of the disco.'
 
 							act 'Watch the fight by':
 								cls
 								otnBoyFrend[numnpc] -= 20
 								gs 'stat'
-								'<<$nameBoyfrend[numnpc]>> could oppose the three Gopnik nothing and soon fell under a barrage of punches. Gopari dragged him into the street where the seized money, took off his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
+								'<<$nameBoyfrend[numnpc]>> could oppose the three vagabond nothing and soon fell under a barrage of punches. Gopari dragged him into the street where the seized money, took off his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
 								act 'Go home':gt 'gorodok'
 							end
 
@@ -85,12 +85,12 @@ $din_gboy_go_to_disco = {
 								gs 'stat'
 
 								if stren < 90:
-									'You tried to push Gopnik, but someone pushed you and you will fly away from fighting a few meters from all force crashed to the floor. Gopari meanwhile pulled your guy beaten on the street where the money away, removed his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
+									'You tried to push vagabond, but someone pushed you and you will fly away from fighting a few meters from all force crashed to the floor. Gopari meanwhile pulled your guy beaten on the street where the money away, removed his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
 									act 'Go home':gt 'gorodok'
 								end
 
 								if stren >= 90:
-									'You Gopnik pushed with all his strength, and he flew away from you. But the second Gopnik turned to you and you saw how he punches you in the face.'
+									'You vagabond pushed with all his strength, and he flew away from you. But the second vagabond turned to you and you saw how he punches you in the face.'
 
 									if agil < 90:
 										zub += 1
@@ -100,21 +100,21 @@ $din_gboy_go_to_disco = {
 									end
 
 									if agil >= 90:
-										'You abruptly removed his head to the side and cut the air Gopnik fist near your head.'
+										'You abruptly removed his head to the side and cut the air vagabond fist near your head.'
 
-										act 'Hit in the face with his fist Gopnik':
+										act 'Hit in the face with his fist vagabond':
 											cls
 											gs 'stat'
 
 											if speed >= 50:
 												zub += 1
 												gs 'stat'
-												'You hit Gopnik and hit him right on the nose. The guy yelled, "Oh, you bitch!" and lashed out at you. In my head rang and you realize that you are lying on the floor. Severe pain in the teeth and mouth full of salty liquid. You spit on the floor and saw that you knocked out a tooth. Gopari meanwhile pulled your guy beaten on the street where the money away, removed his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
+												'You hit vagabond and hit him right on the nose. The guy yelled, "Oh, you bitch!" and lashed out at you. In my head rang and you realize that you are lying on the floor. Severe pain in the teeth and mouth full of salty liquid. You spit on the floor and saw that you knocked out a tooth. Gopari meanwhile pulled your guy beaten on the street where the money away, removed his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
 												act 'Go home':gt 'gorodok'
 											end
 
 											if speed < 50:
-												'You tried to hit hooligan punched in the face, but your blow was too slow. Gopnik pushed you and you flew away from him for a few meters and with a sweep crashed on the floor. Gopari meanwhile pulled your guy beaten on the street where the money away, removed his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
+												'You tried to hit hooligan punched in the face, but your blow was too slow. vagabond pushed you and you flew away from him for a few meters and with a sweep crashed on the floor. Gopari meanwhile pulled your guy beaten on the street where the money away, removed his shoes, and threw him into the bushes. You helped her boyfriend to his feet and carried him home. His face was covered in blood and bruises began to swim.'
 												act 'Go home':gt 'gorodok'
 											end
 										end
@@ -124,13 +124,13 @@ $din_gboy_go_to_disco = {
 											gs 'stat'
 
 											if speed >= 90:
-												'You charge a good kick in the face hooligan. Head Gopnik strongly swayed and he grabbed his face. "Shit! Fucking bitch, You broke my nose, I now you´ll break the whole fucking mouth, bitch!" Your guy at this point punched hooligan with a broken nose and he will fly away for a couple of meters down to the dance floor. Two other goparey hung on your guy trying to unscrew his hands.'
+												'You charge a good kick in the face hooligan. Head vagabond strongly swayed and he grabbed his face. "Shit! Fucking bitch, You broke my nose, I now you´ll break the whole fucking mouth, bitch!" Your guy at this point punched hooligan with a broken nose and he will fly away for a couple of meters down to the dance floor. Two other goparey hung on your guy trying to unscrew his hands.'
 
-												act 'Grab one of Gopnik´s face':
+												act 'Grab one of vagabond´s face':
 													cls
 													gs 'stat'
 													GopWin[numnpc] += 1
-													'You nails clutching hooligan in the face and began to scratch his skin and ripping it. Gopnik does not break down and cry with unhooked from your guy. Your guy meanwhile rid of one of Gopnik manages to punch a second, then again and again. Gopnik fell on the floor like a sack. Gopnik with scarred muzzle pounced on your guy, but without success, blood flooded his eyes and your guy punched him in the face of what Gopnik flopped down on his ass. In the meantime, began to rise to his feet one of Gopnik. "Okay, motherfucker, piss with your bitch We´ll still find it!"'
+													'You nails clutching hooligan in the face and began to scratch his skin and ripping it. vagabond does not break down and cry with unhooked from your guy. Your guy meanwhile rid of one of vagabond manages to punch a second, then again and again. vagabond fell on the floor like a sack. vagabond with scarred muzzle pounced on your guy, but without success, blood flooded his eyes and your guy punched him in the face of what vagabond flopped down on his ass. In the meantime, began to rise to his feet one of vagabond. "Okay, motherfucker, piss with your bitch We´ll still find it!"'
 													act 'Go home':gt 'gorodok'
 												end
 											end
@@ -149,13 +149,13 @@ $din_gboy_go_to_disco = {
 												bollrand = rand(0, 1)
 
 												if bollrand = 0:
-													'You got the balls Gonick and he flopped down on his knees howling pinching sore hands. Two other Gopnik hung on your guy trying to unscrew his hands.'
+													'You got the balls Gonick and he flopped down on his knees howling pinching sore hands. Two other vagabond hung on your guy trying to unscrew his hands.'
 
-													act 'Grab one of Gopnik´s face':
+													act 'Grab one of vagabond´s face':
 														cls
 														gs 'stat'
 														GopWin[numnpc] += 1
-														'You nails clutching hooligan in the face and began to scratch his skin and ripping it. Gopnik does not break down and cry with unhooked from your guy. Your guy meanwhile rid of one of Gopnik manages to punch a second, then again and again. Gopnik fell on the floor like a sack. Gopnik with scarred muzzle pounced on your guy, but without success, blood flooded his eyes and your guy punched him in the face of what Gopnik flopped down on his ass. In the meantime, began to rise to his feet one of Gopnik. "Okay, motherfucker, piss with your bitch We´ll still find it!"'
+														'You nails clutching hooligan in the face and began to scratch his skin and ripping it. vagabond does not break down and cry with unhooked from your guy. Your guy meanwhile rid of one of vagabond manages to punch a second, then again and again. vagabond fell on the floor like a sack. vagabond with scarred muzzle pounced on your guy, but without success, blood flooded his eyes and your guy punched him in the face of what vagabond flopped down on his ass. In the meantime, began to rise to his feet one of vagabond. "Okay, motherfucker, piss with your bitch We´ll still find it!"'
 														act 'Go home':gt 'gorodok'
 													end
 												end
@@ -184,7 +184,7 @@ $din_gboy_go_to_disco = {
 						DPtipe = 2
 						gs 'BnameGen'
 						gs 'stat'
-						'You danced with Gopnik. <<$nameBoyfrend[numnpc]>> approached him and grabbed his shoulder. "Hey you! That´s my girl!" For your guy approached couple Gopnik and steel grind with him, but failing to come to you and to the hooligan dancing with you. soon <<$nameBoyfrend[numnpc]>> spat and sending you to the dick left the disco. Gopnik suggested you plunk him.'
+						'You danced with vagabond. <<$nameBoyfrend[numnpc]>> approached him and grabbed his shoulder. "Hey you! That´s my girl!" For your guy approached couple vagabond and steel grind with him, but failing to come to you and to the hooligan dancing with you. soon <<$nameBoyfrend[numnpc]>> spat and sending you to the dick left the disco. vagabond suggested you plunk him.'
 
 						act 'Go thump':gt 'EvgopBuh'
 					end
@@ -192,7 +192,7 @@ $din_gboy_go_to_disco = {
 
 				if GorSlut >= 3:
 					otnBoyFrend[numnpc] = 0
-					'Gopnik looks at you and then starts laughing "hear potsik. What´re you dance with her? Same <<$name>> <<$gnikname>>. Take her into the bushes, but Nava her mouth. You know how it is sweet smacked when sucks dick. "Red with the words you Gopnik and embarrassed. <<$nameBoyfrend[numnpc]>> Gopnik began to run into, "What did you say? Come again!" By hooligan immediately approached his friends. "Hears the boy. Bykuy not. Svetku For all the boys in the neighborhood knows that she <<$gnikname>>." <<$nameBoyfrend[numnpc]>> looks at you with surprise. "What is truth?" Boys laugh "Well, you and the brake." <<$nameBoyfrend[numnpc]>> beats you hand over his face, "Fuck you on the dick, slut!" whereupon <<$nameBoyfrend[numnpc]>> leaves the dance floor.'
+					'vagabond looks at you and then starts laughing "hear potsik. What´re you dance with her? Same <<$name>> <<$gnikname>>. Take her into the bushes, but Nava her mouth. You know how it is sweet smacked when sucks dick. "Red with the words you vagabond and embarrassed. <<$nameBoyfrend[numnpc]>> vagabond began to run into, "What did you say? Come again!" By hooligan immediately approached his friends. "Hears the boy. Bykuy not. Svetku For all the boys in the neighborhood knows that she <<$gnikname>>." <<$nameBoyfrend[numnpc]>> looks at you with surprise. "What is truth?" Boys laugh "Well, you and the brake." <<$nameBoyfrend[numnpc]>> beats you hand over his face, "Fuck you on the dick, slut!" whereupon <<$nameBoyfrend[numnpc]>> leaves the dance floor.'
 
 					act 'rubbing cheek':gt 'gdkin'
 				end

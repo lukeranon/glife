@@ -589,7 +589,7 @@ $din_cheat_menu_reputation = {
 	if GorSlut ! 5:pl '<a href="exec:GorSlut = 5 & dynamic $din_cheat_menu_reputation">Back reputation "lowered slut" (5)</a>'
 	if GorSlut ! 6:pl '<a href="exec:GorSlut = 6 & dynamic $din_cheat_menu_reputation">Back reputation "prostitute" (6)</a>'
 	if GorSlut > 0:pl '<a href="exec:GorSlut = 0 & dynamic $din_cheat_menu_reputation">Clear reputation in town (0)</a>'
-	if opusk > 0 or sipovka > 0 or rozetka > 0:pl '<a href="exec:opusk = 0 & sipovka = 0 & rozetka = 0 & dynamic $din_cheat_menu_reputation">Clear reputation with Gopnik</a>'
+	if opusk > 0 or sipovka > 0 or rozetka > 0:pl '<a href="exec:opusk = 0 & sipovka = 0 & rozetka = 0 & dynamic $din_cheat_menu_reputation">Clear reputation with the vagabonds</a>'
 }
 $din_cheat_menu_documents = {
 	gs 'stat'

@@ -270,7 +270,7 @@ if $ARGS[0] = 'start':
 	if gnewQW = 2:
 		'Hey, sweetie <<$name>>, go pivas drink, or you can walk through the park in good pootzhimat suckers? <<$gopnik>>'
 
-		act 'I would like a beer, but I´m in a hurry':
+		act 'I would like to have a beer, but I´m in a hurry':
 			cla
 			'(You) - Sorry, but I´m in a hurry'
 			'(Bob) - Come on, sit half an hour and have a chat, have time.'
@@ -894,16 +894,7 @@ if $ARGS[0] = '11':
 	set throat += 1
 	set picrand = rand(1, 10)
 
-	if picrand = 1:'<center><img src="images/pics/bj.jpg"></center>'
-	if picrand = 2:'<center><img src="images/pics/bj2.jpg"></center>'
-	if picrand = 3:'<center><img src="images/pics/bj3.jpg"></center>'
-	if picrand = 4:'<center><img src="images/pics/bj4.jpg"></center>'
-	if picrand = 5:'<center><img src="images/pics/bj5.jpg"></center>'
-	if picrand = 6:'<center><img src="images/pics/bj6.jpg"></center>'
-	if picrand = 7:'<center><img src="images/pics/bj7.jpg"></center>'
-	if picrand = 8:'<center><img src="images/pics/bj8.jpg"></center>'
-	if picrand = 9:'<center><img src="images/pics/bj9.jpg"></center>'
-	if picrand = 10:'<center><img src="images/pics/bj10.jpg"></center>'
+	'<center><img src="images/pics/bj<<picrand>>.jpg"></center>'
 
 	'You remove a member Gopnik and take it in his mouth sucking diligently.'
 	!'
@@ -919,17 +910,8 @@ if $ARGS[0] = '11':
 		cla
 		*clr
 		set picrand = rand(1, 10)
-
-		if picrand = 1:'<center><img src="images/pics/cum.jpg"></center>'
-		if picrand = 2:'<center><img src="images/pics/cum2.jpg"></center>'
-		if picrand = 3:'<center><img src="images/pics/cum3.jpg"></center>'
-		if picrand = 4:'<center><img src="images/pics/cum4.jpg"></center>'
-		if picrand = 5:'<center><img src="images/pics/cum5.jpg"></center>'
-		if picrand = 6:'<center><img src="images/pics/cum6.jpg"></center>'
-		if picrand = 7:'<center><img src="images/pics/cum7.jpg"></center>'
-		if picrand = 8:'<center><img src="images/pics/cum8.jpg"></center>'
-		if picrand = 9:'<center><img src="images/pics/cum9.jpg"></center>'
-		if picrand = 10:'<center><img src="images/pics/cum10.jpg"></center>'
+		
+		'<center><img src="images/pics/cum<<picrand>>.jpg"></center>'
 
 		'A powerful jet of sperm hits you in the mouth'
 
@@ -955,12 +937,8 @@ if $ARGS[0] = '11':
 		cla
 		set bjrand = rand(0, 1)
 		set picrand = rand(1, 5)
-
-		if picrand = 1 and bjrand = 1:'<center><img src="images/pics/facial.jpg"></center>'
-		if picrand = 2 and bjrand = 1:'<center><img src="images/pics/facial2.jpg"></center>'
-		if picrand = 3 and bjrand = 1:'<center><img src="images/pics/facial3.jpg"></center>'
-		if picrand = 4 and bjrand = 1:'<center><img src="images/pics/facial4.jpg"></center>'
-		if picrand = 5 and bjrand = 1:'<center><img src="images/pics/facial5.jpg"></center>'
+		
+		'<center><img src="images/pics/facial<<picrand>>.jpg"></center>'
 		if bjrand = 0:'You have time to take out of his mouth and a member <<$guygop>> commits past you.'
 		if bjrand = 1:set cumface += 1 & '<<$guygop>> ends up on your face.'
 		if bjrand = 1:'All your face sticky and hot sperm, Gopnik wipes member of your lips and leaves.'
@@ -978,13 +956,8 @@ if $ARGS[0] = '12':
 	set cumass += 1
 
 	set picrand = rand(1, 6)
-
-	if picrand = 1:'<center><img src="images/pics/gopslut.jpg"></center>'
-	if picrand = 2:'<center><img src="images/pics/gopslut2.jpg"></center>'
-	if picrand = 3:'<center><img src="images/pics/gopslut3.jpg"></center>'
-	if picrand = 4:'<center><img src="images/pics/gopslut4.jpg"></center>'
-	if picrand = 5:'<center><img src="images/pics/gopslut5.jpg"></center>'
-	if picrand = 6:'<center><img src="images/pics/gopslut6.jpg"></center>'
+	
+	'<center><img src="images/pics/gopslut<<picrand>>.jpg"></center>'
 
 	'<<$guygop>> gets you to a secluded place where posture and fucks.'
 
@@ -1056,17 +1029,7 @@ if $ARGS[0] = '2':
 		set cumface += 1
 		set picrand = rand(1, 11)
 
-		if picrand = 1:'<center><img src="images/pics/tri.jpg"></center>'
-		if picrand = 2:'<center><img src="images/pics/tri2.jpg"></center>'
-		if picrand = 3:'<center><img src="images/pics/tri3.jpg"></center>'
-		if picrand = 4:'<center><img src="images/pics/tri4.jpg"></center>'
-		if picrand = 5:'<center><img src="images/pics/tri5.jpg"></center>'
-		if picrand = 6:'<center><img src="images/pics/tri6.jpg"></center>'
-		if picrand = 7:'<center><img src="images/pics/tri7.jpg"></center>'
-		if picrand = 8:'<center><img src="images/pics/tri8.jpg"></center>'
-		if picrand = 9:'<center><img src="images/pics/tri9.jpg"></center>'
-		if picrand = 10:'<center><img src="images/pics/tri10.jpg"></center>'
-		if picrand = 11:'<center><img src="images/pics/tri11.jpg"></center>'
+		'<center><img src="images/pics/tri<<picrand>>.jpg"></center>'
 
 		'<<$namgopsum>>. They put you into a crouch and began to beat their members in the face and you in turn have you in my mouth.'
 		set horand = rand(1, 100)
@@ -1097,21 +1060,7 @@ if $ARGS[0] = '2':
 		set cumface += 1
 		set picrand = rand(1, 15)
 
-		if picrand = 1:'<center><img src="images/pics/gang.jpg"></center>'
-		if picrand = 2:'<center><img src="images/pics/gang2.jpg"></center>'
-		if picrand = 3:'<center><img src="images/pics/gang3.jpg"></center>'
-		if picrand = 4:'<center><img src="images/pics/gang4.jpg"></center>'
-		if picrand = 5:'<center><img src="images/pics/gang5.jpg"></center>'
-		if picrand = 6:'<center><img src="images/pics/gang6.jpg"></center>'
-		if picrand = 7:'<center><img src="images/pics/gang7.jpg"></center>'
-		if picrand = 8:'<center><img src="images/pics/gang8.jpg"></center>'
-		if picrand = 9:'<center><img src="images/pics/gang9.jpg"></center>'
-		if picrand = 10:'<center><img src="images/pics/gang10.jpg"></center>'
-		if picrand = 11:'<center><img src="images/pics/gang11.jpg"></center>'
-		if picrand = 12:'<center><img src="images/pics/gang12.jpg"></center>'
-		if picrand = 13:'<center><img src="images/pics/gang13.jpg"></center>'
-		if picrand = 14:'<center><img src="images/pics/gang14.jpg"></center>'
-		if picrand = 15:'<center><img src="images/pics/gang15.jpg"></center>'
+		'<center><img src="images/pics/gang<<picrand>>.jpg"></center>'
 
 		'<<$namgopsum>>. They started to fuck you in all holes at a time.'
 		set horand = rand(1, 100)
@@ -1189,15 +1138,7 @@ if $ARGS[0] = 'degrading':
 
 	degrand = rand(0, 8)
 
-	if degrand = 0:'<center><img src="images/pictures/deg.jpg"></center>'
-	if degrand = 1:'<center><img src="images/pictures/deg1.jpg"></center>'
-	if degrand = 2:'<center><img src="images/pictures/deg2.jpg"></center>'
-	if degrand = 3:'<center><img src="images/pictures/deg3.jpg"></center>'
-	if degrand = 4:'<center><img src="images/pictures/deg4.jpg"></center>'
-	if degrand = 5:'<center><img src="images/pictures/deg5.jpg"></center>'
-	if degrand = 6:'<center><img src="images/pictures/deg6.jpg"></center>'
-	if degrand = 7:'<center><img src="images/pictures/deg7.jpg"></center>'
-	if degrand = 8:'<center><img src="images/pictures/deg8.jpg"></center>'
+	'<center><img src="images/pictures/deg<<degrand>>.jpg"></center>'
 
 	'Gopota mocks you, you hit on the cheeks and breasts. Tuck in pussy different objects and spit in your face. After playing Gopnik release you.'
 

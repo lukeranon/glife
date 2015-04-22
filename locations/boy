@@ -83,7 +83,7 @@ set harakBoy = rand(0, 2)
 set finance = rand(0, 2)
 
 if finance = 0:
-	!!Gopnik beggar or a hard worker
+	!!vagabond beggar or a hard worker
 	!!check in appearance Primary
 	if harakBoy = 0:set vneshBoy = rand(0, 2)
 	if harakBoy = 1:set vneshBoy = rand(0, 4)
