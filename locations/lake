@@ -10,22 +10,22 @@ if $ARGS[0] = 'start':
 	clr
 	gs 'stat'
 	gs 'time'
-	'A large lake located in the city is a favorite destination of residents in the summer.'
+	'A large lake located within city limits is the favorite destination of the residents in the summer.'
 
 	if car > 0 and cardrive = 4:
 		set cardrive = 4
-		'At the lake stands <a href="exec:GS ''carF'', ''start''">your <<$car>></a>.'
+		'Near the lake stands <a href="exec:GS ''carF'', ''start''">your <<$car>></a>.'
 	end
 
-	if nastjaqw = 3 and temper >= 20 and bikini > 0 and hour >= 6 and hour <= 20:'You hand waving from <a href="exec:gt ''nastja'', ''pos14''">Anastasia</a>.'
+	if nastjaqw = 3 and temper >= 20 and bikini > 0 and hour >= 6 and hour <= 20:'You can wave your hand for <a href="exec:gt ''nastja'', ''pos14''">Anastasia</a>.'
 
 	if temper >= 20 and bikini > 0 and hour >= 6 and hour <= 20:
-		'Next is <a href="exec:gt ''lake'', ''aquapark''">Water attractions</a>.'
-		'And, you can <a href="exec:gt ''lake'', ''horse''">ride a horse</a>'
-		'And there´s even a couple of kilometers <a href="exec:gt ''Nudelake''">nude beach</a>'
-		'Also you can sunbathe or swim.'
+		'Nearby you there is several <a href="exec:gt ''lake'', ''aquapark''">Water attractions</a>.'
+		'Also you can <a href="exec:gt ''lake'', ''horse''">ride a horse</a>'
+		'And there''s even a couple of kilometers <a href="exec:gt ''Nudelake''">nudist beach</a>'
+		'You can also go sunbathe or go swimming.'
 
-		act 'Walk on the beach':
+		act 'Walk on the beach (1:00)':
 			cls
 			set minut += 60
 			gs 'stat'
@@ -56,12 +56,12 @@ if $ARGS[0] = 'start':
 			if stren < 30:set stren += 1
 
 			'<center><img src="images/pics/swim.jpg"></center>'
-			'You iskupnulis in the lake, the water refreshes and invigorates.'
+			'You swim in the lake, the water refreshes and invigorates.'
 
-			act 'Out of the water':gt 'lake', 'start'
+			act 'Geet out of the water':gt 'lake', 'start'
 		end
 
-		act 'Zagarat (1:00)':
+		act 'Sunbath (1:00)':
 			cla
 			*clr
 			set minut += 60
@@ -71,29 +71,29 @@ if $ARGS[0] = 'start':
 
 			if krem = 0:
 				set tan += 1
-				'You went to the beach to sunbathe.'
+				'You lie down on the beach to sunbathe.'
 			end
 
 			if krem > 0:
 				set krem -= 1
 				set tan += 3
-				'You smeared body sunblock and went to sunbathe.'
+				'You smear sunblock on your body and lie down to sunbathe.'
 			end
 
 			set evrand = rand(0, 100)
 
 			if evrand > 50:
-				act 'Rise from the beach':gt 'lake', 'start'
+				act 'Stand up from the beach':gt 'lake', 'start'
 			end
 
 			if evrand <= 30 and andrei > 0:
-				act 'Rise from the beach':gt 'lake', 'start'
+				act 'Stand up from the beach':gt 'lake', 'start'
 			end
 
 			if evrand <= 30 and andrei = 0:
 				set anreirape = 1
-				'You fell asleep on the beach while sunbathing. You dreamed that someone caresses your chest. Your nipples hardened, high breasts rising from deep breaths. Outlined the aura of something wet on the breast, and you moan sweetly.'
-				'Strong hand stroked the folds on your body, from which the whole body covered goose, and suddenly his finger slipped through overgrown fuzz barely pierces folds sexual sponges and touched some incredibly pleasant point. Your body is thrown into a fever, back sweet shiver ran, and below all moistened. Already feeling that pleasure comes reality and not a dream, but still unable to overcome the sleepy bliss and open your eyes, you have spread her legs wide, yielding a seductive caress. When cheeky finger dipped your juices, easily penetrated into your bosom, you even had to wonder, natural feeling. Finger movement led you into a kind of trance, you are already in full voice moaned, wriggling under the hot sun. And then when you thought something was about to happen, a feeling of fullness left you.'
+				'You fell asleep on the beach while sunbathing. You dreamed that someone caresses your breasts. Your nipples get hardened,your chest highly rises from your deep breaths. You feel that something is wet in the area around your nipples, and you moan sweetly.'
+				'A Strong hand strokes the folds on your body, which made your entire body covered in chills, and suddenly his finger slipped through overgrown fuzz barely pierces folds sexual sponges and touched some incredibly pleasant point. Your body is thrown into a fever, back sweet shiver ran, and below all moistened. Already feeling that pleasure comes reality and not a dream, but still unable to overcome the sleepy bliss and open your eyes, you have spread her legs wide, yielding a seductive caress. When cheeky finger dipped your juices, easily penetrated into your bosom, you even had to wonder, natural feeling. Finger movement led you into a kind of trance, you are already in full voice moaned, wriggling under the hot sun. And then when you thought something was about to happen, a feeling of fullness left you.'
 
 				act 'Open your eyes':
 					cla
@@ -101,21 +101,21 @@ if $ARGS[0] = 'start':
 					'Opening his eyes, you saw a shadowy figure unshaven men lustfully staring at you. You become uncomfortable - you´re lying naked in front of a stranger, and even all moaning and current as the latest slut and scary - no one on the beach, because he can do with you whatever he wants!'
 					'All these thoughts flashed through your mind as a man pulling off her shorts. You looked with horror at the exposed his penis, before you he seemed huge.'
 
-					act 'Jump ':
+					act 'Jump':
 						cla
 						*clr
 						'You tried to jump but were immediately pressed his strong hands to his hairy chest.'
 
-						act 'Knee hit him in the balls':
+						act 'Knee him in the balls':
 							cla
 							*clr
 							set andrei = 1
-							'You very accurately poked his knee in the balls, he screamed and let you down.'
+							'You very accurately knee him in the balls, he screams and let you down.'
 
 							act 'Rise from the beach':gt 'lake', 'start'
 						end
 
-						act 'Escape from the clutches':
+						act 'Escape from his arms':
 							cla
 							*clr
 							set andrei = 2
@@ -148,7 +148,7 @@ if $ARGS[0] = 'start':
 									'<<$name>> answered you -'
 									'I can see that you liked our game. Want to catch an even bigger thrill? - Come back tomorrow, - said Andrei suavely dressing - repeat our deeds.'
 
-									act 'Rise from the beach':gt 'lake', 'start'
+									act 'Stand up from the beach':gt 'lake', 'start'
 								end
 							end
 						end

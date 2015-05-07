@@ -110,7 +110,7 @@ If month = 8 and pogodaday ! day:
 	set temper = rand(20, 35)
 	set osadki = rand(0, 10)
 
-	if osadki < painweather:set $osadki = The sky is'Clear.'
+	if osadki < painweather:set $osadki = 'The sky is clear.'
 	if osadki >= painweather:set $osadki = 'It''s coming a gently rain.'
 
 	set $pogoda = 'There is green grass outdoors, where some of them is already showing yellowing leaves, temperature is <<temper>> degrees Celsius. <<$osadki>>'

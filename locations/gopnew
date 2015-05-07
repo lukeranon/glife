@@ -9,19 +9,19 @@ $gopsexboy1 = {
 	if BerezaTut = 3:
 		if berezasex = 0:berezasex = 1 & guy += 1
 
-		set $guygop = 'Birch'
+		set $guygop = 'Bereza'
 	end
 
 	if VitekTut = 3:
 		if viteksex = 0:viteksex = 1 & guy += 1
 
-		set $guygop = 'Witek'
+		set $guygop = 'Vitek'
 	end
 
 	if KostilTut = 3:
 		if kostilsex = 0:kostilsex = 1 & guy += 1
 
-		set $guygop = 'Spike'
+		set $guygop = 'Kostil'
 	end
 
 	if UdmurtTut = 3:
@@ -33,48 +33,48 @@ $gopsexboy1 = {
 	if SeriTut = 3:
 		if serisex = 0:serisex = 1 & guy += 1
 
-		set $guygop = 'Gray'
+		set $guygop = 'Seri'
 	end
 
 	cla
 
-	act 'Post':gt 'gopnew', '1'
+	act 'Submit':gt 'gopnew', '1'
 	act 'Suck':gt 'gopnew', '11'
-	act 'Writing in the ass':gt 'gopnew', '12'
+	act 'Give in your ass':gt 'gopnew', '12'
 }
 
 
 if $ARGS[0] = 'start':
-	'<center><b>Do COURT HOUSE</b></center>'
+	'<center><b>THE YARD OF YOUR HOUSE</b></center>'
 	'<center><img src="images/etogame/dvor.jpg"></center>'
-	'You walk slowly around the yard, you go to a meeting a few guys gopnicheskogo species, with pivasom, Semko and caps.'
+    'You walk slowly across the yard, you face the meeting of a couple of guys ,the troublemaker kind with cigars, beer and flat caps.'
 	gtalkrand = rand(0, 10)
 
-	if gtalkrand = 0:$goptalk = 'vaflersha'
-	if gtalkrand = 1:$goptalk = 'waffle-iron'
-	if gtalkrand = 2:$goptalk = 'shkvarnaya'
+	if gtalkrand = 0:$goptalk = 'tramp'
+	if gtalkrand = 1:$goptalk = 'bimbo'
+	if gtalkrand = 2:$goptalk = 'pivot'
 	if gtalkrand = 3:$goptalk = 'whore'
-	if gtalkrand = 4:$goptalk = 'Tvaryny'
-	if gtalkrand = 5:$goptalk = 'nipple'
-	if gtalkrand = 6:$goptalk = 'sheep'
-	if gtalkrand = 7:$goptalk = 'Shmarov'
+	if gtalkrand = 4:$goptalk = 'wench'
+	if gtalkrand = 5:$goptalk = 'nymphomaniac'
+	if gtalkrand = 6:$goptalk = 'hooker'
+	if gtalkrand = 7:$goptalk = 'harlot'
 	if gtalkrand = 8:$goptalk = 'slut'
-	if gtalkrand = 9:$goptalk = 'huesoska'
-	if gtalkrand = 10:$goptalk = 'blyadushka'
+	if gtalkrand = 9:$goptalk = 'prostitute'
+	if gtalkrand = 10:$goptalk = 'bitch'
 
 	set gtalkrand = rand(0, 10)
 
-	if gtalkrand = 0:$goptalk2 = 'how many cocks sucked today?'
-	if gtalkrand = 1:$goptalk2 = 'want to take the canine?'
-	if gtalkrand = 2:$goptalk2 = 'you struhnya on fucked.'
-	if gtalkrand = 3:$goptalk2 = 'Th silent? Mouthful Of Cum scored?'
-	if gtalkrand = 4:$goptalk2 = 'and in your mouth already Ssali? Or not?'
-	if gtalkrand = 5:$goptalk2 = 'what hollow you have more? Ass or pussy?'
+	if gtalkrand = 0:$goptalk2 = 'how many cocks you sucked today?'
+	if gtalkrand = 1:$goptalk2 = 'you want to take the bone?'
+	if gtalkrand = 2:$goptalk2 = 'you fuck for sperm.'
+	if gtalkrand = 3:$goptalk2 = 'are you silent?Or your Mouth is full Of Cum?'
+	if gtalkrand = 4:$goptalk2 = 'you have already fucked in your mouth? Or not?'
+	if gtalkrand = 5:$goptalk2 = 'In what hole you want more? Ass or pussy?'
 	if gtalkrand = 6:$goptalk2 = 'I came out of shock, and wipe your ass forgot podlizhesh tongue?'
 	if gtalkrand = 7:$goptalk2 = 'come to me for a ride on a scooter hairy.'
 	if gtalkrand = 8:$goptalk2 = 'berushka you in the mouth? Or a beggar in the ass?'
 	if gtalkrand = 9:$goptalk2 = 'want in your mouth Nass, that sea smell?'
-	if gtalkrand = 10:$goptalk2 = 'struhnyu you like to lick?'
+	if gtalkrand = 10:$goptalk2 = 'Any sperm you like to lick?'
 
 	gs 'gopwho'
 	gs 'goplust'
@@ -126,12 +126,12 @@ if $ARGS[0] = 'start':
 				else
 					'Okay, stomp out of here before we´re kind.'
 
-					act 'Leave.':gt 'street'
+					act 'Leave':gt 'street'
 				end
 			end
 		end
 
-		act 'To pretend that you did not notice.':
+		act 'Pretend that you did not notice.':
 			cla
 			'You tried to pretend that did not see Gopnik and went to his house.'
 
@@ -255,7 +255,7 @@ if $ARGS[0] = 'start':
 			act 'Go':gt 'street'
 		end
 
-		act 'Drink pivasika':gt 'gopnew', 'pivas'
+		act 'Drink beer':gt 'gopnew', 'pivas'
 	end
 
 	if gnewQW = 3:
@@ -275,11 +275,11 @@ if $ARGS[0] = 'start':
 			'(You) - Sorry, but I´m in a hurry'
 			'(Bob) - Come on, sit half an hour and have a chat, have time.'
 
-			act 'Drink pivasika':gt 'gopnew', 'pivas'
+			act 'Drink beer':gt 'gopnew', 'pivas'
 			act 'Leave':gt 'street'
 		end
 
-		act 'Drink pivasika':gt 'gopnew', 'pivas'
+		act 'Drink beer':gt 'gopnew', 'pivas'
 
 		act 'Go to delyugu':
 			*clr
@@ -328,17 +328,17 @@ if $ARGS[0] = 'start':
 			'(You) - Sorry, but I´m in a hurry'
 			'(Bob) - Come on, sit half an hour and have a chat, have time.'
 
-			act 'Drink pivasika':gt 'gopnew', 'pivas'
+			act 'Drink beer':gt 'gopnew', 'pivas'
 			act 'Go':gt 'street'
 		end
 
-		act 'Drink pivasika':gt 'gopnew', 'pivas'
+		act 'Drink beer':gt 'gopnew', 'pivas'
 	end
 
 	if gnewQW = 0:
 		'One of them gets better cap thieves step is sent to you. "Hi, are you cool chick, will pivas for dating?"'
 
-		act 'Drink pivasika':gt 'gopnew', 'pivas'
+		act 'Drink beer':gt 'gopnew', 'pivas'
 
 		act 'No':
 			cla
@@ -389,7 +389,7 @@ if $ARGS[0] = 'pivas':
 	if cumface > 0 or cumlip > 0 or cumfrot > 0:
 		'Bob looked closer to you, "shit, you´re in the same struhne, ohuet and sat with us zaforshmachennaya pivas drink, let´s go bitch, need to talk"'
 
-		act 'Go through the gate with boys':gt 'gopnew', 'bazar'
+		act 'Go through the gate with the boys':gt 'gopnew', 'bazar'
 
 		exit
 	end
@@ -410,7 +410,7 @@ if $ARGS[0] = 'pivas':
 			'Udmurt silently turned the phone screen to you and you see that it is a video where you suck dick.'
 			'Bob angrily threw a beer bottle to the side. "You bastard beer obschakovoe their fucking lips zafarshmachila. Come on, you have to market."'
 
-			act 'Go through the gate with boys':gt 'gopnew', 'bazar'
+			act 'Go through the gate with the boys':gt 'gopnew', 'bazar'
 
 			exit
 		end
@@ -422,7 +422,7 @@ if $ARGS[0] = 'pivas':
 		end
 
 		if kavslutknow = 1:
-			'Gray looked at you and evil grin. "Hold on guys, I´ll tell you one prikolyuhu now. Anyway, I cook Ashot, well of local rygalovki, told how they Givi waitress in all holes zhuchat after work. He showed me that Shmarev. Anyway, you are now with her pivas Bukhaev , ha ha, prikinte it you schA struhnyu Ashot pivasom in the bottle is empty, eh? "'
+			'Gray looked at you with evil grin. "Hold on guys, I´ll tell you one prikolyuhu now. Anyway, I cook Ashot, well of local rygalovki, told how they Givi waitress in all holes zhuchat after work. He showed me that Shmarev. Anyway, you are now with her pivas Bukhaev , ha ha, prikinte it you schA struhnyu Ashot pivasom in the bottle is empty, eh? "'
 			'Bob angrily threw a beer bottle to the side. "You bastard beer obschakovoe their fucking lips zafarshmachila. Come on, you have to market."'
 
 			act 'Go through the gate with boys':gt 'gopnew', 'bazar'
@@ -437,10 +437,10 @@ if $ARGS[0] = 'pivas':
 		end
 
 		if frotknow = 1:
-			'Gray looked at you and evil grin. "Hold on guys, I´ll tell you one prikolyuhu now. Anyway, I for one huylo pogonyalom Grater such prikolyuhu said he rides on the subway and babsky zhoptsam sticks that would rub on them. So says was got on the subway faultless slut ready suffering always ass podstvait friendship. He sfotkal it on mobile. So this is your <<$name>> is the very slut underground, in a joke right?'
+			'Gray looked at you with an evil grin. "Hold on guys, I´ll tell you one prikolyuhu now. Anyway, I for one huylo pogonyalom Grater such prikolyuhu said he rides on the subway and babsky zhoptsam sticks that would rub on them. So says was got on the subway faultless slut ready suffering always ass podstvait friendship. He sfotkal it on mobile. So this is your <<$name>> is the very slut underground, in a joke right?'
 			'Bob angrily threw a beer bottle to the side. "You bastard beer obschakovoe their fucking lips zafarshmachila. Come on, you have to market."'
 
-			act 'Go through the gate with boys':gt 'gopnew', 'bazar'
+			act 'Go through the gate with the boys':gt 'gopnew', 'bazar'
 
 			exit
 		end
@@ -466,7 +466,7 @@ if $ARGS[0] = 'pivas':
 			'Udmurt silently turned the phone screen to you and you see that it is a video where you suck dick.'
 			'Bob angrily threw a beer bottle to the side. "You bastard beer obschakovoe their fucking lips zafarshmachila. Come on, you have to market."'
 
-			act 'Go through the gate with boys':gt 'gopnew', 'bazar'
+			act 'Go through the gate with the boys':gt 'gopnew', 'bazar'
 
 			exit
 		end
@@ -481,7 +481,7 @@ if $ARGS[0] = 'pivas':
 			'Gray looked at you and evil grin. "Hold on guys, I´ll tell you one prikolyuhu now. Anyway, I cook Ashot, well of local rygalovki, told how they Givi waitress in all holes zhuchat after work. He showed me that Shmarev. Anyway, you are now with her pivas Bukhaev , ha ha, prikinte it you schA struhnyu Ashot pivasom in the bottle is empty, eh? "'
 			'Bob angrily threw a beer bottle to the side. "You bastard beer obschakovoe their fucking lips zafarshmachila. Come on, you have to market."'
 
-			act 'Go through the gate with boys':gt 'gopnew', 'bazar'
+			act 'Go through the gate with the boys':gt 'gopnew', 'bazar'
 
 			exit
 		end
@@ -496,7 +496,7 @@ if $ARGS[0] = 'pivas':
 			'Gray looked at you and evil grin. "Hold on guys, I´ll tell you one prikolyuhu now. Anyway, I for one huylo pogonyalom Grater such prikolyuhu said he rides on the subway and babsky zhoptsam sticks that would rub on them. So says was got on the subway faultless slut ready suffering always ass podstvait friendship. He sfotka it on mobile. So this is your <<$name>> is the very slut underground, in a joke right?'
 			'Bob angrily threw a beer bottle to the side. "You bastard beer obschakovoe their fucking lips zafarshmachila. Come on, you have to market."'
 
-			act 'Go through the gate with boys':gt 'gopnew', 'bazar'
+			act 'Go through the gate with the boys':gt 'gopnew', 'bazar'
 
 			exit
 		end
@@ -534,13 +534,13 @@ if $ARGS[0] = 'bazar':
 	'(Gopar) - You´re a bitch is not particularly right. I Vasya nail. I know the area at all, and you saucy slut specifically roughened. You owe me!'
 	'Bob rudely shook you by the shoulders, "you agree bitch?"'
 
-	if magic > 0:'At this point, you felt someone´s evil and powerful magical force that suppresses your and does not use against Gopnik.'
+	if magic > 0:'At this point, you felt someone''s evil and powerful magical force that suppresses your and does not use against Gopnik.'
 		act 'Agree':
 			cla
 			*clr
 			'Bob turned to cronies. "Everyone has heard? She agreed that she owed me and that she´s a bitch."'
 
-			act 'I´m not a bitch!':
+			act 'I''m not a bitch!':
 				cla
 				*clr
 				'Who snitch, that in the mouth fuck?'
@@ -863,12 +863,7 @@ if $ARGS[0] = '1':
 	set cumass += 1
 	set picrand = rand(1, 6)
 
-	if picrand = 1:'<center><img src="images/pics/gopslut.jpg"></center>'
-	if picrand = 2:'<center><img src="images/pics/gopslut2.jpg"></center>'
-	if picrand = 3:'<center><img src="images/pics/gopslut3.jpg"></center>'
-	if picrand = 4:'<center><img src="images/pics/gopslut4.jpg"></center>'
-	if picrand = 5:'<center><img src="images/pics/gopslut5.jpg"></center>'
-	if picrand = 6:'<center><img src="images/pics/gopslut6.jpg"></center>'
+	'<center><img src="images/pics/gopslut<<picrand>>.jpg"></center>'
 
 	'<<$guygop>> gets you to a secluded place where posture and fucks.'
 	set horand = rand(1, 100)
@@ -879,7 +874,7 @@ if $ARGS[0] = '1':
 	else
 		set horny = 0
 		set orgasm += 1
-		'You covered orgasm'
+		'You had an orgasm'
 	end
 
 	'<<$guygop>> commits you to wipe your ass and dick on your ass. After that wears pants and goes thump on.'
@@ -919,7 +914,7 @@ if $ARGS[0] = '11':
 			cla
 			set cumlip += 1
 			set swallow += 1
-			'You swallow sperm <<$guygop>> wipes his dick on your lips and leaves.'
+			'You swallow the sperm, <<$guygop>> wipes his dick on your lips and leaves.'
 
 			act 'Leave':gt 'street'
 		end
@@ -933,15 +928,15 @@ if $ARGS[0] = '11':
 		end
 	end
 
-	act 'Remove the mouth':
+	act 'Remove your mouth':
 		cla
 		set bjrand = rand(0, 1)
 		set picrand = rand(1, 5)
 		
 		'<center><img src="images/pics/facial<<picrand>>.jpg"></center>'
-		if bjrand = 0:'You have time to take out of his mouth and a member <<$guygop>> commits past you.'
+		if bjrand = 0:'You have time to take out his cock of your mouth and a member <<$guygop>> commits past you.'
 		if bjrand = 1:set cumface += 1 & '<<$guygop>> ends up on your face.'
-		if bjrand = 1:'All your face sticky and hot sperm, Gopnik wipes member of your lips and leaves.'
+		if bjrand = 1:'Your intire face is sticky with hot sperm, Gopnik wipes his dick in your lips and leaves.'
 
 		act 'Leave':gt 'street'
 	end
@@ -1040,10 +1035,10 @@ if $ARGS[0] = '2':
 		else
 			set horny = 0
 			set orgasm += 1
-			'You covered orgasm'
+			'You had an orgasm'
 		end
 
-		'They obkonchali you all the face and mouth.'
+		'They came all over your face and mouth.'
 
 		act 'Leave':gt 'street'
 	end
@@ -1062,7 +1057,7 @@ if $ARGS[0] = '2':
 
 		'<center><img src="images/pics/gang<<picrand>>.jpg"></center>'
 
-		'<<$namgopsum>>. They started to fuck you in all holes at a time.'
+		'<<$namgopsum>>. They started to fuck you in all holes at the same time.'
 		set horand = rand(1, 100)
 
 		if horand > horny:
@@ -1071,7 +1066,7 @@ if $ARGS[0] = '2':
 		else
 			set horny = 0
 			set orgasm += 1
-			'You covered orgasm'
+			'You had an orgasm'
 		end
 
 		'Otimeli you in all holes and obkonchali from all sides.'
